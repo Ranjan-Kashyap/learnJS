@@ -1,0 +1,31 @@
+// Learn more about JSON here: https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/
+
+{
+    "book": [
+ 
+       {
+          "id": "01",
+          "language": "Java",
+          "edition": "third",
+          "author": "Herbert Schildt"
+       },
+ 
+       {
+          "id": "07",
+          "language": "C++",
+          "edition": "second",
+          "author": "E.Balagurusamy"
+       }
+ 
+    ]
+ }
+
+// Storing data:
+myObj = {name: "John", age: 31, city: "New York"};
+myJSON = JSON.stringify(myObj);
+localStorage.setItem("testJSON", myJSON);
+
+// Retrieving data:
+text = localStorage.getItem("testJSON");
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML = obj.name; 

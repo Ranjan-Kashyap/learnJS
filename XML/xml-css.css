@@ -1,0 +1,26 @@
+cars {
+    background-color: #ffffff;
+    width: 100%
+}
+company {
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+
+name {
+    color: #ff0000;
+    font-size: 40px
+}
+
+model {
+    color: #000fff;
+    font-size: 40px
+}
+
+cost, topspeed {
+    display: block;
+    color: #ff00ff0;
+    margin-left: 20px;
+    font-size: 30px;
+}
