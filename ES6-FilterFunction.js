@@ -9,5 +9,5 @@ const people = [
 {id:3, name: 'sharon'}
 ];
 
-const people2 = people.filter(person => person.id !== 2);
+const people2 = people.filter(xyz => xyz.id !== 2);
 console.log(people2);

@@ -5,7 +5,7 @@
 var drinks = ['coffee soda', 'tea', 'whiskey'];
 
 var coldDrinks = drinks.map(function(drink) {
-	return 'iced' + drink;
+	return 'iced ' + drink;
 });
 
 console.log(coldDrinks);

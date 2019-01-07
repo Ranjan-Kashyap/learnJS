@@ -2,8 +2,8 @@
 
 const fruits = ['apples', 'oranges', 'grapes'];
 
-fruits.forEach((fruit, index) => {
+fruits.forEach((fruit) => {
  console.log(fruit);
- console.log(index);
+//  console.log(index);
 
 });
